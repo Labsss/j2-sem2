@@ -9,9 +9,9 @@ describe "the is_multiple_of_3_or_5? method" do
     end
   
     it "should return FALSE when an integer is NOT a multiple of 3 or 5" do
-        expect(is_multiple_of_3_or_5?(2)).to eq(true)
-        expect(is_multiple_of_3_or_5?(7)).to eq(true)
-        expect(is_multiple_of_3_or_5?(64)).to eq(true)
+        expect(is_multiple_of_3_or_5?(2)).to eq(false)
+        expect(is_multiple_of_3_or_5?(7)).to eq(false)
+        expect(is_multiple_of_3_or_5?(64)).to eq(false)
     end
 end
 
@@ -29,4 +29,3 @@ describe "the multiples function sum multiples 3 or 5" do
     expect(sum_of_3_or_5_multiples("chiffre")).to eq("Yo ! Je ne prends que les entiers naturels. TG")
   end
 end
-
