@@ -1,3 +1,3 @@
 readme !
 
-y'a rien ! ^^
+y'a rien à lire circulez !
